@@ -27,7 +27,7 @@ class Waiter
   end
 
   def new_meal(customer, total, tip)
-
+    customer.waiter = @name
   end
 
 
